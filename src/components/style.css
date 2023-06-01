@@ -1,0 +1,42 @@
+/* main */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://www.liberty.edu/archives/public/photos/20150709_9484JR.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+section {
+  font-family: monserrat;
+  max-width: 1600%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.main-title {
+  background-color: blue;
+  height: 50px;
+  padding: 10px;
+}
+.main-box {
+  color: rgb(71, 34, 34);
+
+  margin: 25px auto;
+  width: 30%;
+  padding: 50px;
+  /* height: 150px; */
+  background-color: rgb(194, 185, 185);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.main-box a {
+  text-decoration: none;
+  background-color: rgb(194, 185, 185);
+  color: black;
+  font-weight: 600;
+  font-size: 25px;
+}
+/* end */
