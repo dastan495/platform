@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 const Main = () => {
   return (
     <section>
@@ -9,7 +10,7 @@ const Main = () => {
 
       <div className="main-box">
         <img src="" alt="" />
-        <a href="/registr">портал</a>
+        <Link to="/registr">портал</Link>
       </div>
       <div className="main-box">
         <img src="" alt="" />
@@ -17,7 +18,7 @@ const Main = () => {
       </div>
       <div className="main-box">
         <img src="" alt="" />
-        <h2>рассписание занятий</h2>
+        <Link to="/table">рассписание занятий</Link>
       </div>
       <div className="main-box">
         <img src="" alt="" />
